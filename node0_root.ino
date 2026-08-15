@@ -67,7 +67,7 @@
 #define TOPIC_DATA      "farm/data"          // uplink   : sensor + status
 #define TOPIC_CMD       "farm/cmd"           // downlink : watering duration
 
-#define RELAY_PIN         5
+#define RELAY_PIN         3
 #define RELAY_ON_LEVEL    HIGH               // HIGH = valve open (use LOW for active-low modules)
 #define LED_PIN           8                  // onboard LED on SuperMini boards (active low)
 
