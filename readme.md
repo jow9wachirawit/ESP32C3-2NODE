@@ -8,7 +8,7 @@
   * open it now, for as long as the payload says
 - Receives data from the outdoor node and sends it up to the server over MQTT
 
-[esp32 c3 Node 1 (outdoor)]
+[esp32 c3 Node 1 (Child)]
 - dht11 / dht22 measuring humidity and temperature, 3 readings averaged before sending
 - Reads and sends the data to Node 0, selectable interval:
   every 1 minute, 5 minutes, 15 minutes, 30 minutes, 1 hour
