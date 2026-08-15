@@ -51,7 +51,7 @@
 #define WIFI_CHANNEL  1                      // must match Node 0 or they cannot hear each other
 
 // --- SENSOR ---
-#define DHT_PIN       4                      // data pin
+#define DHT_PIN       3                      // data pin 01 dht 11 ,03 dht 22  
 #define DHT_TYPE      DHT22                  // set to DHT11 or DHT22 to match your part
 
 // --- Reporting interval ---
